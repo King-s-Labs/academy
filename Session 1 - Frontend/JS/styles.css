@@ -1,0 +1,55 @@
+body {
+    background-color: #1a1a1a;
+    font-family: sans-serif;
+    color: white;
+    padding: 50px;
+} 
+
+#banner {
+    background-color: rgb(255, 243, 228);
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+
+/*
+@keyframes rainbowAnimation {
+    0% { background-color: red; }
+    16% { background-color: orange; }
+    33% { background-color: yellow; }
+    50% { background-color: green; }
+    66% { background-color: blue; }
+    83% { background-color: indigo; }
+    100% { background-color: violet; }
+}
+*/
+
+button {
+    background-color: #ff941d;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#application-deadline {
+    text-align: right;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+#tech-icons {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: #ff941d;
+}
