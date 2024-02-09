@@ -1,0 +1,19 @@
+/* 
+Some useful properties (not an exahustive list, we're just including the more obscure ones)
+
+margin - the space around an element
+padding - the space inside an element
+margin: auto - centers an element
+border-radius - rounds the corners of an element
+
+and remember:
+tag
+.class
+#id
+
+*/
+
+/* Using the body selector styles the entire web page with the given properties. */
+body {
+
+}
