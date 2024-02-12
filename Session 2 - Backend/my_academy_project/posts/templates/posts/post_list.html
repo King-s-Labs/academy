@@ -1,0 +1,9 @@
+{% block content %}
+  <h2>Mini Blog</h2>
+  <a href="{% url 'post_new' %}">New post</a>
+  {% for post in posts %}
+    <div>
+      <p>{{ post.author }}: {{ post.content }}</p>
+    </div>
+  {% endfor %}
+{% endblock %}
